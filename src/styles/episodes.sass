@@ -5,6 +5,10 @@
     position: relative
     width: 100%
     gap: 20px
+
+    @media (max-width: 500px)
+        display: flex
+        flex-direction: column
     
     .left 
         width: 38%
@@ -12,6 +16,10 @@
         display: flex
         flex-direction: column
         gap: 20px
+
+
+        @media (max-width: 500px)
+            width: 100%
 
         .bannercontainer
             height: 600px
@@ -22,6 +30,9 @@
             align-items: flex-end
             background-size: cover
             background-position: center center
+
+            @media (max-width: 500px)
+                height: 400px
 
             .content
                 display: flex
@@ -64,6 +75,9 @@
         display: flex
         flex-direction: column
         gap: 20px
+
+        @media (max-width: 500px)
+            width: 100%
         
         .rightheader
             display: flex
