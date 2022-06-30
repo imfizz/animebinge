@@ -1,0 +1,114 @@
+.episodes 
+    display: flex
+    flex-direction: row
+    justify-content: center
+    position: relative
+    width: 100%
+    gap: 20px
+    
+    .left 
+        width: 38%
+        height: 100%
+        display: flex
+        flex-direction: column
+        gap: 20px
+
+        .bannercontainer
+            height: 600px
+            border-radius: 20px
+            padding: 40px 30px
+            display: flex
+            flex-direction: row
+            align-items: flex-end
+            background-size: cover
+            background-position: center center
+
+            .content
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                align-items: flex-end
+                gap: 30px
+
+                @media (max-width: 830px) 
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+
+                .text
+                    h1 
+                        font-weight: 600
+                        margin-bottom: 10px
+                        color: #fff
+
+                    p
+                        color: $secondary-color
+
+                .ratings
+                    display: flex
+                    flex-direction: row
+                    gap: 10px
+                    align-items: flex-end
+                    justify-content: center
+
+                    span
+                        font-weight: 600
+                        color: #fff
+        p
+            color: $secondary-color
+
+    .right 
+        width: 62%
+        height: 100%
+        overflow-y: auto
+        display: flex
+        flex-direction: column
+        gap: 20px
+        
+        .rightheader
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+
+            h2
+                font-weight: 500
+                color: #fff
+
+        .rightcontent
+            display: flex
+            flex-direction: column
+            gap: 30px
+
+            .card
+                display: flex
+                flex-direction: row
+                gap: 20px
+
+
+                @media (max-width: 830px) 
+                    display: flex
+                    flex-direction: column
+                
+
+                .img 
+                    background-size: cover
+                    background-position: center center
+                    padding: 80px 150px
+                    border-radius: 10px
+                    cursor: pointer
+
+                .carddescription
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    flex-wrap: wrap
+                    gap: 10px
+
+                    h3
+                        font-weight: 500
+                        color: #fff
+                    
+                    span
+                        color: $secondary-color
+                        

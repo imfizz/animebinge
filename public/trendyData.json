@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "enabled": false,
+        "name": "Attack On Titan",
+        "src": "/images/imgx1.png",
+        "ratings": "5.0",
+        "category": "Adventure fiction, Dark fantasy, Martial Arts",
+        "description": "When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that stopped the giants in their tracks. But the safety they have had for so long is threatened when a colossal Titan smashes through the barriers, causing a flood of the giants into what had been the human...",
+        "episodes": [
+            {
+                "episode": "Episode 1",
+                "description": "The citizens worry they will be at the Titan's mercy after many years of peace.",
+                "src": "/images/imgn1.png"
+            },
+            {
+                "episode": "Episode 2",
+                "description": "The Shiganshina citizens are under attack from the Titans.",
+                "src": "/images/imgn2.png"
+            },
+            {
+                "episode": "Episode 3",
+                "description": "Eren butt heads with Jean Kirschtein, a cadet who wants to be in the Military Police Regiment. Berholt and Reiner help Eren learn",
+                "src": "/images/imgn3.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "enabled": false,
+        "name": "Jujutsu Kaisen",
+        "src": "/images/imgx2.png",
+        "ratings": "5.0",
+        "category": "Adventure fiction, Dark fantasy, Martial Arts",
+        "description": "Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018, with its chapters collected and published in nineteen tankōbon volumes as of April 2022",
+        "episodes": [
+            {
+                "id": 1,
+                "episode": "Episode 1",
+                "description": "The citizens worry they will be at the Titan's mercy after many years of peace.",
+                "src": "/images/imgo1.png"
+            },
+            {
+                "id": 2,
+                "episode": "Episode 2",
+                "description": "The Shiganshina citizens are under attack from the Titans.",
+                "src": "/images/imgo2.png"
+            },
+            {
+                "id": 3,
+                "episode": "Episode 3",
+                "description": "Eren butt heads with Jean Kirschtein, a cadet who wants to be in the Military Police Regiment. Berholt and Reiner help Eren learn",
+                "src": "/images/imgo3.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "enabled": false,
+        "name": "One Piece",
+        "src": "/images/imgx3.png",
+        "ratings": "5.0",
+        "category": "Adventure fiction, Dark fantasy, Martial Arts",
+        "description": "One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 102 tankōbon volumes as of April 2022.",
+        "episodes": [
+            {
+                "episode": "Episode 1",
+                "description": "The citizens worry they will be at the Titan's mercy after many years of peace.",
+                "src": "/images/imgp1.png"
+            },
+            {
+                "episode": "Episode 2",
+                "description": "The Shiganshina citizens are under attack from the Titans.",
+                "src": "/images/imgp2.png"
+            },
+            {
+                "episode": "Episode 3",
+                "description": "Eren butt heads with Jean Kirschtein, a cadet who wants to be in the Military Police Regiment. Berholt and Reiner help Eren learn",
+                "src": "/images/imgp3.png"
+            }
+        ]
+    }   
+]

@@ -1,0 +1,38 @@
+.headerlinks
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
+    ul:nth-child(1)
+        display: flex
+        gap: 20px
+
+        li
+            color: $secondary-color
+            transition: 100ms ease-in-out
+            cursor: pointer
+
+            &:hover
+                color: #fff
+
+            &.active 
+                color: #fff
+                padding-bottom: 5px
+                border-bottom: 2px solid $btnColor
+
+    ul:nth-child(2)
+        display: flex
+        gap: 5px
+
+        li
+            height: 15px
+            width: 15px
+            background: #fff
+            border-radius: 50%
+
+            &:first-child
+                height: 15px
+                width: 120px
+                background: $btnColor
+                border-radius: 20px

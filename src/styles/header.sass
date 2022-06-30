@@ -1,0 +1,82 @@
+.header 
+    margin: 200px 0px
+    display: flex
+    flex-direction: column
+    width: 60%
+    position: relative
+
+    @media (max-width: 830px) 
+        width: 100%
+    
+    h1
+        font-size: 90px
+        color: #fff
+        font-weight: $bold
+
+    .content
+        display: flex
+        flex-direction: row
+        align-items: center
+        gap: 20px
+        margin-bottom: 20px
+
+        .ratings 
+            display: flex
+            align-items: center
+            gap: 5px
+            
+            span
+                color: #fff
+                font-weight: $bold
+                font-size: 12px
+
+        .categories 
+            display: flex
+            align-items: center
+
+            span
+                color: #fff
+                font-size: 12px
+
+    p
+        font-size: 16px
+        color: #fff
+        margin-bottom: 20px
+        width: 70%
+
+        @media (max-width: 830px) 
+            width: 100%
+    
+    .buttons
+        display: flex
+        gap: 20px
+
+        .watchnow
+            padding: 12px 10px
+            border-radius: 5px
+            display: flex
+            gap: 10px
+            align-items: center
+            justify-content: center
+            background: $btnColor
+            cursor: pointer
+            transition: 100ms ease-in-out
+
+            &:hover
+                background: lighten($btnColor, 15%)
+
+            span 
+                color: #fff
+
+        .heart
+            display: flex
+            align-items: center
+            justify-content: center
+            padding: 10px 12px
+            border: 1px solid white
+            border-radius: 5px
+            cursor: pointer
+
+            &:hover 
+                background: #b61616
+                border: 1px solid transparent
