@@ -37,9 +37,7 @@ function App() {
   }
 
   const cards = anime.map(card => (<Trending data={card} key={card.id} updateAnime={updateAnime} />))
-  const episodes = anime.map(episode => {
-    if(episode.id === active) return <Episodes data={episode} key={episode.id} />
-  })
+  const episodes = anime.filter(episode => episode.id === active).map(episode => <Episodes data={episode} key={episode.id} />)
 
   // for throwback
   const [images, setImages] = useState([])
