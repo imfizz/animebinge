@@ -26,7 +26,7 @@ function App() {
   function updateAnime(id){
     setAnime(prevAnimes => {
       return prevAnimes.map(prevAnime => {
-        if(prevAnime.id == id) {
+        if(prevAnime.id === id) {
           setActive(id)
           return { ...prevAnime, enabled: true }
         }
@@ -38,7 +38,7 @@ function App() {
 
   const cards = anime.map(card => (<Trending data={card} key={card.id} updateAnime={updateAnime} />))
   const episodes = anime.map(episode => {
-    if(episode.id == active) return <Episodes data={episode} key={episode.id} />
+    if(episode.id === active) return <Episodes data={episode} key={episode.id} />
   })
 
   // for throwback

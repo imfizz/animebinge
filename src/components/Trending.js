@@ -2,7 +2,7 @@ import React from 'react'
 import StarIcon from '@mui/icons-material/Star'
 
 function Trending({ data, updateAnime }) {
-  const {id, name, src, ratings, category, description, episodes} = data
+  const {id, name, src, ratings, category } = data
 
   return (
     <div className="trending" onClick={(e) => updateAnime(id) }>
