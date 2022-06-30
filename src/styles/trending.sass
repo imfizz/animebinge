@@ -5,6 +5,9 @@
     overflow: hidden
     border-radius: 20px
     cursor: pointer
+    @media (max-width: 500px) 
+        height: 210px
+        width: 366px
 
     .bg 
         position: absolute
@@ -24,13 +27,25 @@
         width: 100%
         z-index: 3
 
+        @media (max-width: 500px) 
+            gap: 0px !important
+            position: absolute
+            display: flex
+            flex-direction: row
+            align-items: flex-start
+            justify-content: flex-end
+            padding: 20px 30px 
+            height: 100%
+            width: 100%
+            z-index: 3
+
         .text
             display: flex
             flex-direction: column
 
             h1
                 font-weight: 600
-                margin-bottom: 0px
+                margin-bottom: 0px !important
                 font-size: 24px
 
             p
